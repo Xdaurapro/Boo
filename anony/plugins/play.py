@@ -48,12 +48,12 @@ async def play_hndlr(
     elif m3u8:
         file = await tg.process_m3u8(url, sent.id, video)
 
-    elif url:
-    if "playlist" in url:
+   elif url:
+        if "playlist" in url:
             await sent.edit_text(m.lang["playlist_fetch"])
             tracks = await yt.playlist(
                 config.PLAYLIST_LIMIT, mention, url, video
-            )
+            ) 
 
         if not tracks:
             return await sent.edit_text(m.lang["playlist_error"])
