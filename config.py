@@ -22,8 +22,8 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shona_bots")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/shona_support")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/darkquid")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Aurorasupportchat")
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
@@ -44,11 +44,11 @@ class Config:
         )
         self.PING_IMG = getenv(
             "PING_IMG",
-            "https://files.catbox.moe/haagg2.png"
+            "https://litter.catbox.moe/zfr5kg.jpg"
         )
         self.START_IMG = getenv(
             "START_IMG",
-            "https://files.catbox.moe/zvziwk.jpg"
+            "https://litter.catbox.moe/zfr5kg.jpg"
         )
 
         # API End Point
