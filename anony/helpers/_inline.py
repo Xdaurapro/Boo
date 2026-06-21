@@ -151,7 +151,7 @@ class Inline:
                 [
                     self._btn(
                         "Owner",
-                        url="https://t.me/theshonabots",
+                        url="https://t.me/fire_is_power",
                         style=ButtonStyle.DANGER,
                     )
                 ]
