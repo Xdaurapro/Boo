@@ -44,11 +44,11 @@ class Config:
         )
         self.PING_IMG = getenv(
             "PING_IMG",
-            "https://litter.catbox.moe/zfr5kg.jpg"
+            "https://files.catbox.moe/zvziwk.jpg"
         )
         self.START_IMG = getenv(
             "START_IMG",
-            "https://litter.catbox.moe/zfr5kg.jpg"
+            "https://files.catbox.moe/zvziwk.jpg"
         )
 
         # API End Point
